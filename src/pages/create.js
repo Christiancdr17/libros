@@ -1,6 +1,6 @@
 import { useState } from "react";
-import Layout from "../components/layout";
-import { useAppContext } from "../store/store";
+import Layout from "../components/Layout";
+import { useAppContext } from "../store/Store";
 import "./Create.css"
 
 export default function Create() {

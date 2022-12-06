@@ -1,20 +1,10 @@
 import { Link } from "react-router-dom";
+import "./Book.css"
 export default function Book({ item }) {
-  const bookContainerStyle = {
-    display: "flex",
-    flexDirection: "column",
-    width: "300px",
-  };
 
-  const bookInfoStyle = {
-    display: "flex",
-    flexDirection: "column",
-    alignItems: "center",
-    textAlign: "center",
-  };
   return (
-    <div style={bookContainerStyle}>
-      <Link to={`/view/${item.id}`} style={bookInfoStyle}>
+    <div className="bookContainer">
+      <Link to={`/view/${item.id}`} className="bookInfo">
         <img src={item.cover} width="200" />
         <div>{item.title}</div>
       </Link>

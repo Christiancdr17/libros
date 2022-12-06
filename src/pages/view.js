@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import Layout from "../components/layout";
-import { useAppContext } from "../store/store";
+import Layout from "../components/Layout";
+import { useAppContext } from "../store/Store";
 
 export default function View() {
   const [item, setItem] = useState({});

@@ -1,0 +1,12 @@
+.bookContainer {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.bookinfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
