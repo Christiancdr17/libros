@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Layout from "../components/Layout";
+import Footer from "./Footer";
 import { useAppContext } from "../store/Store";
 import "./Create.css"
 
@@ -12,6 +13,8 @@ export default function Create() {
   const [review, setReview] = useState("");
 
   const store = useAppContext();
+
+  
 
   function handleChange(e) {
     switch (e.target.name) {
@@ -61,12 +64,13 @@ export default function Create() {
   }
 
   return (
+    <>
     <Layout>
       <form onSubmit={handleSubmit} className="formContainer">
         <div className="container">
           <div className="title">Title</div>
           <input
-            className="input"
+             className="input"
             type="text"
             name="title"
             onChange={handleChange}
@@ -94,7 +98,7 @@ export default function Create() {
         <div className="container">
           <div className="title">intro</div>
           <input
-            className="input"
+            className="inputStyles.input"
             type="text"
             name="intro"
             onChange={handleChange}
@@ -114,7 +118,7 @@ export default function Create() {
         </div>
 
         <div className="container">
-          <div className="title">review</div>
+          <div  className="title">review</div>
           <input
             className="input"
             type="text"
@@ -126,19 +130,14 @@ export default function Create() {
 
         <input
           type="submit"
-          value="Registrar libro"
-          style={{
-            padding: "15px 20px",
-            minWidth: "200px",
-            border: "none",
-            borderRadius: "5px",
-            backgroundColor: "#1e9638",
-            color: "white",
-            fontWeigth: "bolder",
-            fontSize: "18px",
-          }}
+          value="Registrar Libro"
+          className="button"
         />
       </form>
     </Layout>
+    <Footer/>
+    </>  
   );
+
+  
 }

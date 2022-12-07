@@ -1,6 +1,6 @@
-import Index from "./pages/index";
-import Create from "./pages/create";
-import View from "./pages/view";
+import Index from "./pages/Index";
+import Create from "./pages/Create";
+import View from "./pages/View";
 import "./App.css";
 import { Routes, Route } from "react-router-dom";
 import Store from "./store/Store";
@@ -20,5 +20,3 @@ function App() {
 }
 
 export default App;
-
-// Linea 15 extraido clase de youtube midudev 

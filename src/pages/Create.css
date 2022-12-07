@@ -1,22 +1,38 @@
+body {
+    background-image: url(./libro.jpeg);
+    background-size: cover;
+
+}
 .formContainer {
     width: 400px;
     margin: 0 auto;
-  }
+}
 
 .container {
     display: flex;
     flex-direction: column;
     gap: 5px;
     margin: 15px 0;
-  }
+}
 
 .title {
     font-size: 16px;
     text-align: left;
-  }
+}
 
 .input {
     padding: 10px;
     border-radius: 5px;
     font-size: 16px;
-  }
+}
+
+.button {
+    padding: 15px 20px;
+    min-width: 200px;
+    border: none;
+    border-radius: 5px;
+    background-color: green;
+    font-weight: bolder;
+    font-size: 18px;
+
+}

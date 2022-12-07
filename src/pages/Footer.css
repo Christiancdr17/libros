@@ -1,0 +1,13 @@
+.footerContainer {
+    display: block;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.imgContainer {
+    width: 80px;
+    height: 80px;
+    padding: 15px;
+}
