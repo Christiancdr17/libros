@@ -1,7 +1,7 @@
 export default data = [
   {
     id: "2ad6b5e2-9c2b-4959-b740-9335c85eed74",
-    title: "Harry Potter y el caliz de fuego",
+    title: "Html CSS3 y JavaSrcrip",
     author: "J.K. Rowling",
     cover: "",
     intro: "",
@@ -10,8 +10,8 @@ export default data = [
   },
   {
     id: "9942219d-eecc-42b5-a421-2d9b12736b76",
-    title: "Los ojos de la ciudad",
-    author: "Marcos Rivas",
+    title: "Aprende JAva Script",
+    author: "",
     cover: "",
     intro: "",
     completed: false,

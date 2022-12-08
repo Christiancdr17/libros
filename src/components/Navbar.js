@@ -6,8 +6,12 @@ export default function NavBar() {
 
   return (
     <div className="navContainerStyle">
+
       <Link to="/" className="linkStyle">
         Home
+      </Link>
+      <Link to="/About" className="linkStyle">
+        About
       </Link>
       <Link to="/create" className="linkStyle">
         Subir Libro

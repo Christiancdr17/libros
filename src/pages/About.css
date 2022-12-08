@@ -1,0 +1,54 @@
+.rotulo-i {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 25px;
+    
+}
+
+.rotulo-d {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 25px;
+    text-align: center;
+    
+    
+}
+
+.parrafo {
+    color: black;
+    display: flex;
+    ;
+}
+
+.img {
+    display: flex;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 4px 4px 2px 1px rgba(0, 0, 0, 0.427);
+    margin: auto;
+
+}
+
+.vista {
+    display: flex;
+    background-color: white;
+    margin-top: 50px;
+}
+
+.title {
+    background-color: cadetblue;
+    color: black;
+    display: block;
+}
+
+.p__text {
+    font-size: 20px;
+}
