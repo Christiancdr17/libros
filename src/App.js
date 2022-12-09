@@ -2,6 +2,7 @@ import Index from "./pages/Index";
 import Create from "./pages/Create";
 import View from "./pages/View";
 import About from "./pages/About"
+import Contacto from "./pages/Contacto";
 import "./App.css";
 import { Routes, Route } from "react-router-dom";
 import Store from "./store/Store";
@@ -14,6 +15,7 @@ function App() {
           <Route path="/" element={<About />} />
           <Route path="about" element={<Index />} />
           <Route path="create" element={<Create />} />
+          <Route path="contacto" element={<Contacto />} />
           <Route path="view/:bookId" element={<View />} />
         </Routes>
       </div>

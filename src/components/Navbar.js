@@ -16,8 +16,8 @@ export default function NavBar() {
       <Link to="/create" className="linkStyle">
         Subir Libro
       </Link>
-      <Link to="/create" className="linkStyle">
-      <button class="button-85" role="button">Iniciar Sesion</button>
+      <Link to="/Contacto" className="linkStyle">
+      <button class="button-85" role="button">Quiero Contactarme</button>
       </Link>
     </div>
   );
