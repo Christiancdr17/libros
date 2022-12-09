@@ -11,8 +11,8 @@ function App() {
     <Store>
       <div className="App">
         <Routes>
-          <Route path="/" element={<Index />} />
-          <Route path="about" element={<About />} />
+          <Route path="/" element={<About />} />
+          <Route path="about" element={<Index />} />
           <Route path="create" element={<Create />} />
           <Route path="view/:bookId" element={<View />} />
         </Routes>

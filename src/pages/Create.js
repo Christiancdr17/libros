@@ -98,7 +98,7 @@ export default function Create() {
         <div className="container">
           <div className="title">intro</div>
           <input
-            className="inputStyles.input"
+            className="input"
             type="text"
             name="intro"
             onChange={handleChange}

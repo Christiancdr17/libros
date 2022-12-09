@@ -21,6 +21,12 @@
     
     
 }
+.center {
+    color: rgb(16, 3, 72);
+    display: block;
+    text-align: center;
+    align-items: center;
+}
 
 .parrafo {
     color: black;
@@ -44,7 +50,7 @@
 }
 
 .title {
-    background-color: cadetblue;
+    
     color: black;
     display: block;
 }
@@ -52,3 +58,98 @@
 .p__text {
     font-size: 20px;
 }
+
+.social{
+    color: green;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    gap: 30px;
+    /* background-color: blue; */
+}
+
+.social img {
+    /* background-color: burlywood; */
+    
+    width: 25px;
+    height: 25px;
+    
+}
+@media screen and (max-width: 560px){
+    .vista {
+        display: flex;
+        flex-direction: column;
+       
+        margin-top: 50px;
+    } 
+    .rotulo-i {
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        width: 460px;
+        flex-wrap: wrap;
+        padding: 5px;
+        margin: 20px;
+    }
+    .img {
+        display: flex;
+
+        width: 300px;
+        align-items: center;
+        border-radius: 10px;
+        box-shadow: 4px 4px 2px 1px rgba(0, 0, 0, 0.427);
+        margin: 20px 20px 20px 50px;
+    
+    } 
+}
+
+
+
+
+
+
+@media screen and (max-width: 460px){
+    .vista {
+        display: flex;
+        flex-direction: column;
+       
+        margin-top: 50px;
+    } 
+    .rotulo-i {
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        flex-wrap: wrap;
+        padding: 5px;
+        margin: 20px;
+    }
+    .img {
+        display: flex;
+
+        width: 200px;
+        align-items: center;
+        border-radius: 10px;
+        box-shadow: 4px 4px 2px 1px rgba(0, 0, 0, 0.427);
+        margin: 20px 20px 20px 50px;
+    
+    } 
+    .social{
+        color: green;
+        flex-direction: row;
+        align-items: baseline;
+        text-align: justify;
+        margin: auto;
+        padding: 20px;
+        display: flex;
+        gap: 30px;
+        /* background-color: blue; */
+    }
+    .social img {
+        /* background-color: burlywood; */
+        align-content: space-between;
+        width: 25px;
+        height: 25px;
+        }
+}
+
