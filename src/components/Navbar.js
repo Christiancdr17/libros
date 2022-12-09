@@ -11,7 +11,7 @@ export default function NavBar() {
         Home
       </Link>
       <Link to="/About" className="linkStyle">
-        About
+        Libros Cargados
       </Link>
       <Link to="/create" className="linkStyle">
         Subir Libro
